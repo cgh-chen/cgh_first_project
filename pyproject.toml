@@ -8,3 +8,8 @@ dependencies = [
     "numpy>=2.4.2",
     "pandas>=3.0.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "SQLite_Demo",
+]
